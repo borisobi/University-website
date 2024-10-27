@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+
+.Hero{
+    align-items: center;
+    
+}
+.container{
+    display: inline-flex;
+    align-items: center;
+    width: 1215px;
+}
+.Hero h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 69px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 82.8px */
+}
+.Hero p{
+    color: var(--Grey-Scale-Black-50, rgba(25, 24, 37, 0.50));
+
+/* Body */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+    width: 427px;
+}
+.contact img{
+    width: 788px;
+    height: 713px;
+}
